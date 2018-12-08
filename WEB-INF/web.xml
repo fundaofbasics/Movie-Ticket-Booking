@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+  
+  <servlet>
+  <servlet-name>Ticket</servlet-name>
+  <servlet-class>Ticket</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Ticket</servlet-name>
+  <url-pattern>/servlet/Ticket</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Seat1</servlet-name>
+  <servlet-class>Seat1</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Seat1</servlet-name>
+  <url-pattern>/servlet/Seat1</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+  <servlet-name>Seat</servlet-name>
+  <servlet-class>Seat</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Seat</servlet-name>
+  <url-pattern>/servlet/Seat</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+     <servlet>
+  <servlet-name>Smatrix</servlet-name>
+  <servlet-class>Smatrix</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Smatrix</servlet-name>
+  <url-pattern>/servlet/Smatrix</url-pattern>
+    
+  </servlet-mapping>
+
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Registration</servlet-name>
+  <servlet-class>Registration</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Registration</servlet-name>
+  <url-pattern>/servlet/Registration</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     <servlet>
+  <servlet-name>Ologin</servlet-name>
+  <servlet-class>Ologin</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Ologin</servlet-name>
+  <url-pattern>/servlet/Ologin</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Admin2</servlet-name>
+  <servlet-class>Admin2</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Admin2</servlet-name>
+  <url-pattern>/servlet/Admin2</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Contact</servlet-name>
+  <servlet-class>Contact</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Contact</servlet-name>
+  <url-pattern>/servlet/Contact</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Bill</servlet-name>
+  <servlet-class>Bill</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Bill</servlet-name>
+  <url-pattern>/servlet/Bill</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Search</servlet-name>
+  <servlet-class>Search</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Search</servlet-name>
+  <url-pattern>/servlet/Search</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Login1</servlet-name>
+  <servlet-class>Login1</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Login1</servlet-name>
+  <url-pattern>/servlet/Login1</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+     <servlet>
+  <servlet-name>Home</servlet-name>
+  <servlet-class>Home</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Home</servlet-name>
+  <url-pattern>/servlet/Home</url-pattern>
+    
+  </servlet-mapping>
+
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Admin1</servlet-name>
+  <servlet-class>Admin1</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Admin1</servlet-name>
+  <url-pattern>/servlet/Admin1</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Netbanking</servlet-name>
+  <servlet-class>Netbanking</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Netbanking</servlet-name>
+  <url-pattern>/servlet/Netbanking</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Card</servlet-name>
+  <servlet-class>Card</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Card</servlet-name>
+  <url-pattern>/servlet/Card</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Login</servlet-name>
+  <servlet-class>Login</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Login</servlet-name>
+  <url-pattern>/servlet/Login</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+   <servlet>
+  <servlet-name>Admin</servlet-name>
+  <servlet-class>Admin</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Admin</servlet-name>
+  <url-pattern>/servlet/Admin</url-pattern>
+    
+  </servlet-mapping>
+  
+  
+  
+  
+      <servlet>
+  <servlet-name>Mrecord</servlet-name>
+  <servlet-class>Mrecord</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Mrecord</servlet-name>
+  <url-pattern>/servlet/Mrecord</url-pattern>
+    
+  </servlet-mapping>
+
+    <servlet>
+  <servlet-name>Other</servlet-name>
+  <servlet-class>Other</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Other</servlet-name>
+  <url-pattern>/servlet/Other</url-pattern>
+    
+  </servlet-mapping>
+
+    <servlet>
+  <servlet-name>Other1</servlet-name>
+  <servlet-class>Other1</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Other1</servlet-name>
+  <url-pattern>/servlet/Other1</url-pattern>
+    
+  </servlet-mapping>
+
+   <servlet>
+  <servlet-name>Payment</servlet-name>
+  <servlet-class>Payment</servlet-class>
+    
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>Payment</servlet-name>
+  <url-pattern>/servlet/Payment</url-pattern>
+    
+  </servlet-mapping>
+
+  
+  
+
+</web-app>

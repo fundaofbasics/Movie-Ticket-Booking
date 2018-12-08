@@ -1,0 +1,75 @@
+<html>
+<head>
+<script>
+function validate()
+{
+var x=document.forms["myform"]["fname"].value;
+if(x==null || x=="")
+{
+  alert("Fill your name!");
+  return false;
+}
+
+
+
+
+var y=document.forms["myform"]["phone"].value;
+if(y==null || y=="")
+{
+  alert("Fill Phone No. !");
+  return false;
+}
+
+var z=document.forms["myform"]["city"].value;
+if(z==null || z=="")
+{
+  alert("Fill city!");
+  return false;
+}
+
+
+var p=document.forms["myform"]["email"].value;
+if(p==null || p=="")
+{
+  alert("Fill email !");
+  return false;
+}
+
+var p=document.forms["myform"]["pass"].value;
+if(p==null || p=="")
+{
+  alert("Fill password !");
+  return false;
+}
+
+var p=document.forms["myform"]["repass"].value;
+if(p==null || p=="")
+{
+  alert("Re-enter password !");
+  return false;
+}
+
+
+
+
+
+else
+{return true ;}
+}
+</script>
+</head>
+ <center> <a href="index.html"> <img src="images/Home.png"> </a></center>
+ <body background="images/5.jpg">
+<form name="myform" onSubmit="return validate();" action="servlet/Registration" method=get>
+<center>
+<h1> Register to <font color=blue> BookMyTicket </font></h1>
+<h3> First name <input type=text name=fname ></h3>
+<h3> phone/Mobile no. <input type=text name=phone maxlength=10 ></h3>
+<h3>City<input type=text name=city ></h3>
+<h3> email id <input type=text name=email ></h3>
+<h3> password <input type=password name=pass ></h3>
+<h3> Re-enter password <input type=password name=repass ></h3>
+<br><input type=submit value=submit><input type=reset value="Reset">
+</form>
+
+</center>

@@ -1,0 +1,41 @@
+
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+       public class Payment extends HttpServlet
+	   {
+
+	  public void doGet(HttpServletRequest req,HttpServletResponse res)throws IOException
+  {
+  PrintWriter pw1=res.getWriter();
+pw.println("<html>"):
+pw.println("<body>"):
+pw.println("<center>  <a href=\"../images/Home.png\"> </a></center>");
+pw.println("<center>"):
+pw.println("<font color=blue>"):
+pw.println("<h1>Make Payment</h1>"):
+pw.println("<form action=Card method=get>"):
+pw.println("Payment through <select name=Pay >"):
+pw.println("<option value=0> Credit card </option>"):
+pw.println("<option value=1> Debit card </option>"):
+pw.println("</select>"):
+pw.println("</form>"):
+pw.println("</center>"):
+pw.println("</body>"):
+pw.println("</html>"):
+ try
+  {
+    Class.forName("com.mysql.jdbc.Driver");
+	String url="jdbc:mysql://localhost:3306/collegedb";
+	String uname="root";
+	String pass="ksr";
+	Connection con=DriverManager.getConnection(url,uname,pass);
+		
+	}
+	catch(Exception e1)
+	{
+	  e1.printStackTrace();
+	}
+	
+}
+}
